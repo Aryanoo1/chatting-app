@@ -150,7 +150,9 @@ io.on('connection',async(socket)=>{
     })
 })
 
+module.exports = (req, res) => {
+    app(req, res)
+};
 module.exports = {
-    app,
     server
 }
