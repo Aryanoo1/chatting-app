@@ -21,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:render": "HOST=https://chatapp-70tv.onrender.com react-scripts start",
+    "start:render": "HOST=0.0.0.0 react-scripts start",
     "build": "npm i",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
