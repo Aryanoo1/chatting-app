@@ -21,7 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:render": "HOST=0.0.0.0 react-scripts start",
+    "start": "HOST=0.0.0.0 react-scripts start",
+    "start:render": "DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start",
     "build": "npm i",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
