@@ -1,7 +1,6 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "private": true,
   "proxy": "https://chatting-app-rfoz.onrender.com",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
