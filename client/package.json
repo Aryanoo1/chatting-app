@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "private": true,
   "proxy": "https://chatting-app-rfoz.onrender.com",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
@@ -20,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start:render": "HOST=https://chatapp-70tv.onrender.com react-scripts start",
     "build": "npm i",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
