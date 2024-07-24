@@ -32,7 +32,4 @@ connectDB().then(()=>{
     })
 })
 
-module.exports = {
-    app,
-    server
-};
+module.exports = app;
