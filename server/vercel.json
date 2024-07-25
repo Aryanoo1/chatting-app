@@ -10,14 +10,14 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/index.js"
+        "dest": "/"
       }
     ],
     "rewrites": [
-      {
+        {
         "source": "/socket.io/:path*",
-        "destination": "/index.js"
-      }
+        "destination": "/socket/index.js"
+        }
     ]
   }
   

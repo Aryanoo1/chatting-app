@@ -11,8 +11,7 @@ console.log(process.env.FRONTEND_URL)
 app.use(cors({
     origin : process.env.FRONTEND_URL,
     credentials : true,
-    methods: ['GET', 'POST'],
-    allowedHeaders: ['Content-Type']
+    methods: ['GET', 'POST']
 }))
 app.use(express.json())
 app.use(cookiesParser())
