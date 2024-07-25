@@ -16,10 +16,6 @@ const io = new Server(server,{
     }
 })
 
-/***
- * socket running at http://localhost:8080/
- */
-
 const onlineUser = new Set()
 
 io.on('connection',async(socket)=>{
