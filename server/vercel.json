@@ -16,7 +16,7 @@
     "rewrites": [
         {
         "source": "/socket.io/:path*",
-        "destination": "/socket/index.js"
+        "destination": "/"
         }
     ]
   }
